@@ -1,0 +1,23 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Fri, 06 Nov 2026 04:39:05 +0000
+Label: SyncDeck
+Origin: SyncDeck
+Suite: stable
+MD5Sum:
+ 015935ec8b322764c0052a9fd5bff465              140 Release
+ 7998eb932dbc5ce9340e8b5125505308             1235 main/binary-amd64/Packages
+ 861cbfde31a28c403dffabd25b8c549c              839 main/binary-amd64/Packages.gz
+SHA1:
+ 02d47b88c6fee7497e3f21ae7227d85a33f065c3              140 Release
+ 69399825fd842c54af4f672697f0c49f49e90b3a             1235 main/binary-amd64/Packages
+ 8e3ccaac289b32d3933d6ade40fe1710e8cd18e5              839 main/binary-amd64/Packages.gz
+SHA256:
+ 88f0b21b3515388275a9257502249dea29099fc69ec88aea56340d1b620e3124              140 Release
+ 167f7bdf9cc34fc39c96269f8196cb69703464b5e9f8e769409e678b858a5558             1235 main/binary-amd64/Packages
+ 4576f6a564467be9ed5413446075b6708d2f8b041674d386d9079e45009e0ca9              839 main/binary-amd64/Packages.gz
+SHA512:
+ 38db0121bd23858b27f3cec1816983e0724717bbb70d3e5ce96dd14b90fa0647968a2e4828f1e9733b57d7f03602b45d328f45a68397e49a2dbfa35af7304040              140 Release
+ 8fe7bd9c377c0a130efc044f453a92bafb55f3b26b8f95a7f3e8971b041e62dc6019393c6ed642e915f631e8b9755e4370615bfb966277516ff3a828b30d82b8             1235 main/binary-amd64/Packages
+ fcd46949bd4194b72940eafe749c6831fba77a35c6300d822ff18000f3567b03b76d9d5cc67dc9d54c1b90e56b1cfeb7800cb03bb1dfb68dbd53aca78389126a              839 main/binary-amd64/Packages.gz

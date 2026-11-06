@@ -1,0 +1,23 @@
+Package: syncdeck
+Architecture: amd64
+Version: 0.1.0+build20261105185308
+Priority: optional
+Section: utils
+Maintainer: Dr Manjula Herath <manjula.mh@gmail.com>
+Depends: libc6 (>= 2.39), libsqlite3-0 (>= 3.35.0), ca-certificates, libnotify-bin, libwebkit2gtk-4.1-0, libgtk-3-0, libayatana-appindicator3-1, xdg-utils, fuse3, zenity | kdialog, gnome-keyring | kwalletmanager
+Filename: pool/main/s/syncdeck/syncdeck_0.1.0_amd64.deb
+Size: 32452476
+MD5sum: 284b209b5701ede6c474f3a9a26d2b1e
+SHA1: 9bed94fa2e2bc6633304b33040cb867be83e1a14
+SHA256: aa83b402e8db552e1d2419800c7c29c9bde005c729283de673ebd8e3ae0c6c0c
+SHA512: 631b929339841504cb23e50e0dc7ea39d4ff051468642a8266a0ff0c0fb65288b67a8b0f38c545cb12a58d9a777666ed80993336db3b46c9377cbbda6ea69f4e
+Description: Google Drive sync, Drive as a folder and private backup for large clinical files
+ SyncDeck provides client-side encrypted, deduplicated backup to a local or
+ external disk, or to your own Google Drive, designed
+ specifically for surgeons and clinicians handling large 3D Virtual Surgical
+ Planning (VSP) models and DICOM studies.
+ .
+ Built with Rust, rustic_core, and Tauri.
+ Lead Architect: Dr Manjula Herath, BDS, MD (OMFS).
+ Homepage: https://manjulaherath.github.io/SyncDeck/
+

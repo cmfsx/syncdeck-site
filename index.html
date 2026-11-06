@@ -11,6 +11,23 @@
 <li><b>Live progress</b> for every large file, plus Google Drive shown as a folder in your file manager.</li></ul></div>
 <div class="card"><h2 style="margin-top:0">Your data stays yours</h2>
 <p>SyncDeck has no servers and no accounts. The app talks only to Google, using the permission you grant when you sign in. Nothing is sent to the developer. Read the <a href="privacy.html">privacy policy</a>.</p></div>
+<div class="card"><h2 style="margin-top:0">Install on Linux</h2>
+<p><b>Option 1: Using the APT repository (Ubuntu, Debian, Mint, Pop!_OS)</b></p>
+<pre style="background:var(--bg);padding:14px;border-radius:8px;overflow-x:auto;font-size:0.9rem;border:1px solid var(--line)"><code># 1. Add the verified public signing key
+curl -fsSL https://syncdeck.blisme.com/syncdeck.gpg | sudo tee /usr/share/keyrings/syncdeck.gpg >/dev/null
+
+# 2. Add the repository
+echo "deb [signed-by=/usr/share/keyrings/syncdeck.gpg] https://syncdeck.blisme.com/apt stable main" | sudo tee /etc/apt/sources.list.d/syncdeck.list
+
+# 3. Update and install
+sudo apt update &amp;&amp; sudo apt install syncdeck</code></pre>
+
+<p style="margin-top:20px"><b>Option 2: Direct download</b></p>
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:12px 0">
+  <a class="btn" href="apt/pool/main/s/syncdeck/syncdeck_0.1.0_amd64.deb">Download .deb (v0.1.0)</a>
+  <a class="btn" style="background:var(--muted)" href="downloads/syncdeck-0.1.0-linux-x86_64.tar.gz">Portable Tarball (.tar.gz)</a>
+</div>
+<p class="muted"><a href="downloads/SHA256SUMS.txt">SHA256 Checksums</a></p></div>
 <p class="muted">Available for Linux (Ubuntu, Debian and compatible). Source code and releases: <a href="https://github.com/cmfsx">github.com/cmfsx</a>.</p>
 <footer>SyncDeck is developed by Dr Manjula Herath. Licensed GPL-3.0-or-later. SyncDeck is an independent project and is not affiliated with or endorsed by Google.</footer>
 </main></body></html>
